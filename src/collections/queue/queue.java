@@ -35,6 +35,7 @@ public class queue {
         System.out.println(people.remove());
         System.out.println(people.element());
         System.out.println(people);
+
     }
 }
 class Person {
