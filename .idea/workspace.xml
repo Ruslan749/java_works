@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9f95209-92de-46f6-9496-985638789442" name="Changes" comment="multiTrack v1.0">
-      <change afterPath="$PROJECT_DIR$/src/multiTrack/Count_Down_Latch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiTrack/producer_consumer_2.java" afterDir="false" />
+    <list default="true" id="b9f95209-92de-46f6-9496-985638789442" name="Changes" comment="multiTrack v1.1">
+      <change afterPath="$PROJECT_DIR$/src/multiTrack/class_ReentrantLook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiTrack/deadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiTrack/semaphore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +25,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -59,7 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Count_Down_Latch">
+  <component name="RunManager" selected="Application.deadLock">
     <configuration name="Count_Down_Latch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multiTrack.Count_Down_Latch" />
       <module name="java work" />
@@ -73,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Metods_wait_and_notify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiTrack.Metods_wait_and_notify" />
+    <configuration name="class_ReentrantLook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiTrack.class_ReentrantLook" />
       <module name="java work" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiTrack.ThreadPool" />
+    <configuration name="class_ReentrantLook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiTrack.class_ReentrantLook" />
       <module name="java work" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="producer_consumer_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiTrack.producer_consumer_1" />
+    <configuration name="deadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiTrack.deadLock" />
       <module name="java work" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="producer_consumer_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiTrack.producer_consumer_2" />
+    <configuration name="semaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiTrack.semaphore" />
       <module name="java work" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.deadLock" />
+        <item itemvalue="Application.semaphore" />
+        <item itemvalue="Application.class_ReentrantLook (1)" />
+        <item itemvalue="Application.class_ReentrantLook" />
         <item itemvalue="Application.Count_Down_Latch" />
-        <item itemvalue="Application.producer_consumer_2" />
-        <item itemvalue="Application.Metods_wait_and_notify" />
-        <item itemvalue="Application.producer_consumer_1" />
-        <item itemvalue="Application.ThreadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +151,8 @@
       <workItem from="1682526412845" duration="109000" />
       <workItem from="1682865447812" duration="1723000" />
       <workItem from="1682867931026" duration="3029000" />
-      <workItem from="1682874419192" duration="6620000" />
+      <workItem from="1682874419192" duration="7919000" />
+      <workItem from="1682921846726" duration="5156000" />
     </task>
     <task id="LOCAL-00001" summary="works queue">
       <created>1681757478177</created>
@@ -166,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682876877336</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="multiTrack v1.1">
+      <created>1682881279088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682881279088</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +195,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="works queue" />
     <MESSAGE value="multiTrack v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiTrack v1.0" />
+    <MESSAGE value="multiTrack v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiTrack v1.1" />
   </component>
 </project>
