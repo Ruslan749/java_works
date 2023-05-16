@@ -11,4 +11,6 @@ public @interface MethodInfo {
     String author() default "Ruslan";
     int dateOfCreation() default 2021;
     String purpose();
+
+    String purrpose();
 }
